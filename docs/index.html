@@ -14,6 +14,9 @@
     <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+<!---Video Popup-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<!--Fin Video Popup-->
 
 <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Bebas+Neue&family=Cinzel+Decorative:wght@900&family=Fredoka+One&family=Germania+One&family=Hanalei&family=Herr+Von+Muellerhoff&family=Kristi&family=Major+Mono+Display&family=Monoton&family=Orbitron:wght@900&family=Petit+Formal+Script&family=Plaster&family=Yellowtail&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
@@ -34,6 +37,9 @@
 <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#563d7c">
 
+
+
+<link rel="stylesheet" type="text/css" href="css/videopopup.css">
 
     <style>
       .bd-placeholder-img {
@@ -202,6 +208,33 @@
     <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
+
+    <br><br>
+  
+  <div class="album py-5 bg-light">
+
+      <div class="container img-fluid videopopup">
+
+        <div class="content">
+      <h1 id="txtPopup">
+        Navega por los vídeos<br>
+                 
+      </h1>
+
+    <a href="#videostory" class="button more" id="videolink">
+      Match Video 
+      <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+    </a>
+
+    <div id="videostory" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+    
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/i_l9UjmcT8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+      </div>
+  </div>
+
 <div class="social-container">
               <!--<ul>
               <a href="#" onclick="msj()"><i class="fab fa-facebook-square" width="50" height="50"></i></a>
@@ -235,5 +268,7 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/videopopup.js"> </script>
+
 
 </html>
